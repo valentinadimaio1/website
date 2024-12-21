@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Photo Collage Website</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #fff;
+    }
+    .header {
+      text-align: center;
+      padding: 20px 0;
+      margin: 0;
+    }
+    .header img {
+      max-width: 500px;
+      width: 100%;
+      height: auto;
+    }
+    .navbar {
+      background-color: #3A6150;
+      padding: 15px 0;
+      margin: 0;
+    }
+    .navbar a {
+      margin: 0 20px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .displaced {
+      width: 80%;
+      margin: 40px auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .displaced img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border: 2px solid #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="weblogo.png" alt="Website Logo">
+  </div>
+
+  <div class="navbar">
+    <a href="index.html">PORTRAITS</a>
+    <a href="mailto:valentina.r.dimaio@icloud.com">CONTACT</a>
+    <a href="prices.html">PRICES</a>
+  </div>
+
+  <div class="displaced">
+    <!-- best.jpeg first, everything else follows at the same size -->
+    <img src="best.jpeg" alt="Best Image">
+    <img src="image1.jpeg" alt="Image 1">
+    <img src="image2.jpeg" alt="Image 2">
+    <img src="image3.jpeg" alt="Image 3">
+    <img src="image4.jpeg" alt="Image 4">
+    <img src="image5.jpeg" alt="Image 5">
+    <img src="image6.jpeg" alt="Image 6">
+    <img src="image7.jpeg" alt="Image 7">
+    <img src="image8.jpeg" alt="Image 8">
+  </div>
+</body>
+</html>

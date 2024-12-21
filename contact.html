@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      text-align: center;
+    }
+    /* Same “auto-sized” header */
+    .header {
+      text-align: center;
+      padding: 20px 0;
+      margin: 0;
+    }
+    .header img {
+      max-width: 500px;
+      width: 100%;
+      height: auto;
+    }
+    .navbar {
+      background-color: #3A6150;
+      padding: 15px 0;
+      margin: 0;
+    }
+    .navbar a {
+      margin: 0 20px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .content {
+      width: 60%;
+      margin: 40px auto;
+      text-align: left;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #3A6150;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="weblogo.png" alt="Website Logo">
+  </div>
+
+  <div class="navbar">
+    <a href="index.html">PORTRAITS</a>
+    <a href="contact.html">CONTACT</a>
+    <a href="prices.html">PRICES</a>
+  </div>
+
+  <div class="content">
+    <h1>Contact Me</h1>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name"/>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email"/>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5"></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</body>
+</html>
